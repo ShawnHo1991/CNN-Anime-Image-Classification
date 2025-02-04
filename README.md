@@ -4,25 +4,25 @@
 
 # Model Summary
 
-Layer (type:depth-idx)                   Output Shape              Param #
+Layer (type:depth-idx)                   Output Shape              Param #  
 
-AnimeCNN                                 [1, 2]                    --
-├─Conv2d: 1-1                            [1, 32, 64, 64]           896
-├─MaxPool2d: 1-2                         [1, 32, 32, 32]           --
-├─Conv2d: 1-3                            [1, 64, 32, 32]           18,496
-├─MaxPool2d: 1-4                         [1, 64, 16, 16]           --
-├─Linear: 1-5                            [1, 128]                  2,097,280
-├─Linear: 1-6                            [1, 2]                    258
+AnimeCNN                                 [1, 2]                    --  
+├─Conv2d: 1-1                            [1, 32, 64, 64]           896  
+├─MaxPool2d: 1-2                         [1, 32, 32, 32]           --  
+├─Conv2d: 1-3                            [1, 64, 32, 32]           18,496  
+├─MaxPool2d: 1-4                         [1, 64, 16, 16]           --  
+├─Linear: 1-5                            [1, 128]                  2,097,280  
+├─Linear: 1-6                            [1, 2]                    258  
 
-Total params: 2,116,930
-Trainable params: 2,116,930
-Non-trainable params: 0
-Total mult-adds (M): 24.71
+Total params: 2,116,930  
+Trainable params: 2,116,930  
+Non-trainable params: 0  
+Total mult-adds (M): 24.71  
 
-Input size (MB): 0.05
-Forward/backward pass size (MB): 1.57
-Params size (MB): 8.47
-Estimated Total Size (MB): 10.09
+Input size (MB): 0.05  
+Forward/backward pass size (MB): 1.57  
+Params size (MB): 8.47  
+Estimated Total Size (MB): 10.09  
 
 
 # Result
